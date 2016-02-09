@@ -1,0 +1,12 @@
+  git clone git@github.com:mohammedzee1000/nulecule.git
+  538  cat ~/.ssh/id_rsa.pub 
+  539  whoami
+  540  git clone git@github.com:mohammedzee1000/nulecule.git
+  541  ls
+  542  cd nulecule/
+  543  ls
+  544  git remote add upstream https://github.com/projectatomic/nulecule.git
+  545  cat .git/config 
+  546  git pull upstream master
+  547  git branch 
+  548  git push origin master
