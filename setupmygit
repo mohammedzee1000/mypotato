@@ -1,0 +1,21 @@
+# Add Public key and private key to sys keyring 
+
+# Source
+gpg --armor --export <ID> > public.key
+gpg --armor export --export-secret-key <ID> private.key
+# Public key should be in github
+
+# Dest
+gpg --import public.key
+gpg --allow-secret-key-import --import private.key
+
+gpg --list-keys
+
+git config --global user.signkey <publickeyid>
+git config --global user.email <emailid>
+
+# For commits
+git commit -S
+
+# For tags 
+git tag -s
