@@ -1,0 +1,7 @@
+[user]
+	signingkey = 62847E37
+	name = mohammedzee1000
+	signkey = 62847E37
+	email = mohammed.zee1000@gmail.com
+[commit]
+	gpgsign = true
